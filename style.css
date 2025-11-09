@@ -6,7 +6,7 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: "Lovers Quarrel", cursive;
+    font-family:"Lato", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
@@ -56,7 +56,7 @@ header.active {
 }
 
 .logo {
-    font-size: 4rem;
+    font-size: 2rem;
     color: var(--white-color);
     font-weight: 500;
     margin-left: 3.5rem;
@@ -64,7 +64,7 @@ header.active {
 }
 
 nav a {
-    font-size: 4rem;
+    font-size: 2rem;
     color: var(--white-color);
     font-weight: 500;
     margin-left: 3.5rem;
@@ -77,7 +77,7 @@ nav a.active {
 }
 
 #menu-icon {
-    font-size: 6rem;
+    font-size: 4rem;
     display: none;
 
 }
@@ -153,12 +153,12 @@ section.active {
 }
 
 .home-detail h1 {
-    font-size: clamp(3.5rem, 10vw, 5.5rem);
+    font-size: clamp(2.5rem, 10vw, 4.5rem);
 }
 
 .home-detail h2 {
     display: inline-block;
-    font-size: 3.2rem;
+    font-size: 2.2rem;
     margin-top: -1rem;
 }
 
@@ -308,7 +308,7 @@ section.active {
 }
 
 .heading {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -342,7 +342,7 @@ section.active {
 }
 
 .services-box .icon i {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     transition: .5s;
 }
 
@@ -363,7 +363,7 @@ section.active {
 }
 
 .services-box .icon a i {
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--bg-color);
     transform: rotate(225deg);
 }
@@ -373,7 +373,7 @@ section.active {
 }
 
 .services-box h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: .5rem 0 2rem;
     transition: .5s;
 }
@@ -393,7 +393,7 @@ section.active {
 }
 
 .resume-box h2 {
-    font-size: 5.0rem;
+    font-size: 3.0rem;
 }
 
 .resume-box p {
@@ -409,7 +409,7 @@ section.active {
     height: 5.3rem;
     background: var(--second-bg-color);
     border: .2rem solid var(--second-bg-color);
-    font-size: 2.6rem;
+    font-size: 1.6rem;
     color: var(--white-color);
     font-weight: 500;
     margin-bottom: 2rem;
@@ -431,7 +431,7 @@ section.active {
 }
 
 .resume-box .heading {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     text-align: left;
 }
 
@@ -471,7 +471,7 @@ section.active {
 }
 
 .resume-item h3 {
-    font-size: 3.2rem;
+    font-size: 2.2rem;
 }
 
 .resume-item .company {
@@ -504,7 +504,7 @@ section.active {
 }
 
 .resume-detail.skills .resume-item i {
-    font-size: 8.5rem;
+    font-size: 6.5rem;
 }
 
 .resume-detail.skills .resume-item:hover {
@@ -569,14 +569,14 @@ section.active {
 }
 
 .portfolio-box .numb {
-    font-size: 8rem;
+    font-size: 6rem;
     -webkit-text-stroke: .07rem var(--white-color);
     color: transparent;
     line-height: 1;
 }
 
 .portfolio-box h3 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin: .8rem 0 2rem;
 }
 
@@ -676,7 +676,7 @@ section.active {
     background: var(--second-bg-color);
     border: .2rem solid var(--main-color);
     border-radius: .6rem;
-    font-size: 4rem;
+    font-size: 2rem;
     color: var(--main-color);
     cursor: pointer;
 }
@@ -722,7 +722,7 @@ section.active {
     display: inline-flex;
     background: var(--second-bg-color);
     color: var(--main-color);
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 1.2rem;
     border-radius: .6rem;
     margin-right: 1.5rem;
@@ -740,7 +740,7 @@ section.active {
 }
 
 .contact-box .heading {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
 .contact-box .field-box {
@@ -899,3 +899,4 @@ section.active {
     }
 
 }
+
